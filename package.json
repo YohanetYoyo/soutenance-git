@@ -1,0 +1,33 @@
+{
+  "name": "soutenance-git",
+  "version": "1.0.0",
+  "description": "DevTask est une application permettant de gérer les tâches de vos projets, qu'ils soient personnels ou professionnels.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YohanetYoyo/soutenance-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YohanetYoyo/soutenance-git/issues"
+  },
+  "homepage": "https://github.com/YohanetYoyo/soutenance-git#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.7.0",
+    "globals": "^17.7.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^13.2.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  }
+}
