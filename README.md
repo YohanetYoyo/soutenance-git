@@ -26,3 +26,14 @@ Les pull requests sont acceptées. Pour des changements majeurs, ouvrez un issue
 ## Licence
 
 [MIT](https://choosealicense.com/licenses/mit/). Aussi lire `LICENSE.txt` pour plus d'informations.
+## Git flow
+
+Ce projet suit un Git flow avec les branches `prod`, `dev`, `release/*`, `feature/*`, `fix/*`, `docs/*` et `chore/*`. Voir [CONTRIBUTING.md](./CONTRIBUTING.md) pour le détail complet du workflow.
+
+## Qualité du code
+
+Le code est vérifié automatiquement par ESLint, via un hook pre-commit (Husky + lint-staged) et une CI GitHub Actions qui s'exécute sur chaque Pull Request.
+
+## Code de conduite
+
+Voir [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
